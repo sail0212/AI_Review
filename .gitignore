@@ -1,1 +1,25 @@
-./claude 
+./claude
+
+# Backend (Maven)
+backend/target/
+*.class
+*.jar
+
+# Frontend (Node)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Env / secrets
+.env
+.env.*
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
